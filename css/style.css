@@ -11,6 +11,8 @@ body {
   flex-wrap: wrap;
   gap: 50px;
 
+  padding-top: 40px;
+
   background-color: #f6f4f1bf;
 
   height: 100vh;
@@ -27,6 +29,8 @@ body {
 
 .row {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   padding: 10px 10px;
   border: 1px solid #ac7088;
@@ -46,7 +50,7 @@ body {
 }
 
 .buttons {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   gap: 10px;
