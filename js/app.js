@@ -27,5 +27,6 @@ dateSetter.addEventListener("input", () => {
     items.forEach((el) => {
       el.classList.remove("active");
     });
+    location.reload();
   });
 });
